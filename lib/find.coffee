@@ -15,9 +15,10 @@ module.exports =
     focusEditorAfterSearch:
       type: 'boolean'
       default: false
-    openProjectFindResultsInRightPane:
-      type: 'boolean'
-      default: false
+    openProjectFindResultsInANewPane:
+      type: 'string'
+      default: 'no'
+      enum: ['no', 'right', 'bottom']
     scrollToResultOnLiveSearch:
       type: 'boolean'
       default: false
